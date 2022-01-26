@@ -5,7 +5,7 @@ Use the following endpoint to create a new room. An example data schema is given
 Endpoint: /rooms/create-rooms 
 
 Example data schema:
-{
+`{
         "roomID": "Room-103",
         "capacity": "50",
         "amenities": [
@@ -27,16 +27,16 @@ Example data schema:
         ],
         "bookedHours": [],
         "price": "₹1000 per hour"
-    }
+    }`
     
 **Get all rooms:**
 Use the following endpoint to get the details of all the existing rooms.
-Emdpoint: /rooms/all-rooms
+Endpoint: /rooms/all-rooms
 
 
 **Get all customers:**
 Use the following endpoint to get the details of all the existing rooms.
-Emdpoint: /rooms/all-customers
+Endpoint: /rooms/all-customers
 
 
 **Book a room:**
@@ -44,9 +44,9 @@ Use the following endpoint to book a room. An example data schema is given below
 Endpoint: /rooms/book-room
 
 Example schema:
-{
+`{
     "name": "Karuppusamy",
     "roomID": "Room-101",
     "date": "27 Jan 2022",
     "duration": "12:00pm-01:00pm"
-  }
+  }`
